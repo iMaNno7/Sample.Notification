@@ -13,7 +13,6 @@
         }
         public override void StateChange(MessageService messageService)
         {
-            messageService.notificationProvider = new FaraPayamakProvider();
         }
 
     }
